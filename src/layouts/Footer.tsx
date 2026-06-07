@@ -18,24 +18,24 @@ export const Footer: React.FC = () => {
           </div>
           <div className="footer-col">
             <h4>Science</h4>
-            <a href="/science/technologie.html">Technologie H₂O-DRY®</a>
-            <a href="/science/etudes.html">Études (847)</a>
-            <a href="/science/certifications.html">Certifications</a>
-            <a href="/science/bulleactiv.html">BulleActiv™</a>
+            <a href="#!">Technologie H₂O-DRY®</a>
+            <a href="#!">Études (847)</a>
+            <a href="#!">Certifications</a>
+            <a href="#!">BulleActiv™</a>
           </div>
           <div className="footer-col">
             <h4>Support</h4>
-            <a href="/support/mode-d-emploi.html">Mode d'emploi</a>
-            <a href="/support/faq.html">FAQ</a>
-            <a href="/support/sachets-d-urgence.html">Sachets d'urgence</a>
-            <a href="/support/gaston.html">Gaston (beta)</a>
+            <a href="#!">Mode d'emploi</a>
+            <a href="#!">FAQ</a>
+            <a href="#!">Sachets d'urgence</a>
+            <a href="#!">Gaston (beta)</a>
           </div>
           <div className="footer-col">
             <h4>AQUAPOWDER™</h4>
-            <a href="/entreprise/mission.html">Notre mission</a>
-            <a href="/entreprise/geneve-sous-sol-c.html">Genève, sous-sol C</a>
-            <a href="/entreprise/presse.html">Presse</a>
-            <a href="/entreprise/mentions-legales.html">Mentions légales</a>
+            <a href="#!">Notre mission</a>
+            <a href="#!">Genève, sous-sol C</a>
+            <a href="#!">Presse</a>
+            <a href="#!">Mentions légales</a>
           </div>
         </div>
         <div style={{ marginTop: '2rem', textAlign: 'center', fontSize: '12px', color: '#7a7a7a' }}>
