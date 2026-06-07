@@ -18,24 +18,24 @@ export const Footer: React.FC = () => {
           </div>
           <div className="footer-col">
             <h4>Science</h4>
-            <a href="#!">Technologie H₂O-DRY®</a>
-            <a href="#!">Études (847)</a>
-            <a href="#!">Certifications</a>
-            <a href="#!">BulleActiv™</a>
+            <a href={`${import.meta.env.BASE_URL}science/technologie.html`}>Technologie H₂O-DRY®</a>
+            <a href={`${import.meta.env.BASE_URL}science/etudes.html`}>Études (847)</a>
+            <a href={`${import.meta.env.BASE_URL}science/certifications.html`}>Certifications</a>
+            <a href={`${import.meta.env.BASE_URL}science/bulleactiv.html`}>BulleActiv™</a>
           </div>
           <div className="footer-col">
             <h4>Support</h4>
-            <a href="#!">Mode d'emploi</a>
-            <a href="#!">FAQ</a>
-            <a href="#!">Sachets d'urgence</a>
-            <a href="#!">Gaston (beta)</a>
+            <a href={`${import.meta.env.BASE_URL}support/mode-d-emploi.html`}>Mode d'emploi</a>
+            <a href={`${import.meta.env.BASE_URL}support/faq.html`}>FAQ</a>
+            <a href={`${import.meta.env.BASE_URL}support/sachets-d-urgence.html`}>Sachets d'urgence</a>
+            <a href={`${import.meta.env.BASE_URL}support/gaston.html`}>Gaston (beta)</a>
           </div>
           <div className="footer-col">
             <h4>AQUAPOWDER™</h4>
-            <a href="#!">Notre mission</a>
-            <a href="#!">Genève, sous-sol C</a>
-            <a href="#!">Presse</a>
-            <a href="#!">Mentions légales</a>
+            <a href={`${import.meta.env.BASE_URL}entreprise/mission.html`}>Notre mission</a>
+            <a href={`${import.meta.env.BASE_URL}entreprise/geneve-sous-sol-c.html`}>Genève, sous-sol C</a>
+            <a href={`${import.meta.env.BASE_URL}entreprise/presse.html`}>Presse</a>
+            <a href={`${import.meta.env.BASE_URL}entreprise/mentions-legales.html`}>Mentions légales</a>
           </div>
         </div>
         <div style={{ marginTop: '2rem', textAlign: 'center', fontSize: '12px', color: '#7a7a7a' }}>
