@@ -1586,7 +1586,9 @@ h2 {
   }
 
   .hero-title {
-    font-size: 42px;
+    font-size: clamp(32px, 10vw, 42px);
+    word-wrap: break-word;
+    hyphens: auto;
   }
   
   .hero-sub {
