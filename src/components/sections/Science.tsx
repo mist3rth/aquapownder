@@ -21,7 +21,7 @@ export const Science: React.FC = () => {
   return (
     <section className="tile-dark2 reveal active" id="science">
       {/* Utilisation de loading="lazy" sémantique ou simplement en background */}
-      <div className="science-bg-image" style={{ backgroundImage: "url('/images/geneva_lab_render.webp')" }}></div>
+      <div className="science-bg-image" style={{ backgroundImage: `url('${import.meta.env.BASE_URL}images/geneva_lab_render.webp')` }}></div>
       <div className="science-content-wrapper">
         <h2>La Science derrière la poudre.</h2>
         <p className="lead">847 études propriétaires. Des certifications. Des chiffres.</p>

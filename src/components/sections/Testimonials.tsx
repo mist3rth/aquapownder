@@ -8,7 +8,7 @@ export const Testimonials: React.FC = () => {
 
   return (
     <section className={`tile-dark3 reveal ${isVisible ? 'active' : ''}`} ref={ref}>
-      <div className="blueprint-bg" style={{ backgroundImage: "url('/images/darkblueprint.webp')" }}></div>
+      <div className="blueprint-bg" style={{ backgroundImage: `url('${import.meta.env.BASE_URL}images/darkblueprint.webp')` }}></div>
       <div className="testimonials-content-wrapper">
         <h2>Ils ont essayé. Ils ont bu.</h2>
         <p className="lead">Des clients conquis. Des avis authentiques. Probablement.</p>

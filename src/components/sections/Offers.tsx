@@ -21,7 +21,7 @@ export const Offers: React.FC = () => {
         <div className="offers-left-visual">
           <img 
             className="spoon-image" 
-            src="/images/aquapowder_spoon_render.webp" 
+            src={`${import.meta.env.BASE_URL}images/aquapowder_spoon_render.webp`}
             alt="Cuillère doseuse AQUAPOWDER™ en acier inoxydable brossé" 
             loading="lazy" 
           />

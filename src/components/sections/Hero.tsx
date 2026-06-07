@@ -27,7 +27,7 @@ export const Hero: React.FC = () => {
       <div className="can-wrap">
         <img 
           className="product-can" 
-          src="/images/aquapowder_can_render.webp" 
+          src={`${import.meta.env.BASE_URL}images/aquapowder_can_render.webp`}
           alt="Canette de poudre d'eau AQUAPOWDER™ H₂O-DRY®" 
           style={{ transform: `translateY(${translateVal}px) rotate(${rotateVal}deg)` }}
         />
