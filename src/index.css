@@ -30,22 +30,21 @@
 
 html {
   scroll-behavior: smooth;
-  overflow-x: hidden;
   width: 100%;
 }
 
 body {
+  margin: 0;
+  padding: 0;
   font-family: var(--font-stack);
   background: var(--color-white);
   color: var(--color-ink);
-  overflow-x: hidden;
   width: 100%;
   line-height: 1.47;
   -webkit-font-smoothing: antialiased;
 }
 
 #root {
-  overflow-x: hidden;
   width: 100%;
 }
 
