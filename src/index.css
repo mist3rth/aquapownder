@@ -1439,10 +1439,17 @@ h2 {
 @media (max-width: 992px) {
   .offers-grid-container {
     grid-template-columns: 1fr;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .offers-grid-container > div {
+    min-width: 0;
   }
   
   .offers-left-visual {
     max-width: 320px;
+    width: 100%;
     margin: 0 auto;
   }
 
@@ -1644,6 +1651,9 @@ h2 {
   
   .offer-card {
     min-height: auto;
+    width: 100%;
+    min-width: 0;
+    box-sizing: border-box;
   }
 }
 
