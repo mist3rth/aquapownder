@@ -31,7 +31,7 @@
 html {
   scroll-behavior: smooth;
   overflow-x: hidden;
-  width: 100vw;
+  width: 100%;
 }
 
 body {
@@ -39,14 +39,14 @@ body {
   background: var(--color-white);
   color: var(--color-ink);
   overflow-x: hidden;
-  width: 100vw;
+  width: 100%;
   line-height: 1.47;
   -webkit-font-smoothing: antialiased;
 }
 
 #root {
   overflow-x: hidden;
-  width: 100vw;
+  width: 100%;
 }
 
 /* ==========================================================================
@@ -1259,7 +1259,7 @@ h2 {
     padding: 0 0 16px;
     margin: 0; 
     width: 100%;
-    max-width: 100vw; /* Verrouille la largeur à l'écran */
+    max-width: 100%; /* Verrouille la largeur à l'écran */
     overflow-x: auto;
     overflow-y: hidden;
     overscroll-behavior-x: none; /* Empêche le bounce global sur iOS/Android */
